@@ -260,11 +260,11 @@ bool makeTransaction(bankAccount **arr,int id,int amount,int size){
 			}
 		
 		}
-		else{
+	}
 		cout<<"Account NOt found"<<endl;
 		return false;
-		}
-	}
+	
+	
 }
 void deleteAccounts(bankAccount **arr,int size){
 	for(int i=0;i<size;i++){
